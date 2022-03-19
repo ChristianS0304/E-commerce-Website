@@ -77,5 +77,8 @@ $("#top-sale .owl-carousel").owlCarousel({
         }
     });
 
+    // product quantity
+    let $qty_up = $("qty qty-up");
+    let $qty_down = $("qty qty-up");
 
 });
