@@ -11,6 +11,12 @@ button, button:focus {
   text-decoration: none;
 }
 
+.read-more {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
 /* Typography Ckasses */
 .font-roboto {
   font-family: "Roboto", cursive;
@@ -94,6 +100,12 @@ button, button:focus {
 #top-sale .owl-carousel .owl-nav button.owl-next span {
   left: 0;
   margin-right: -4rem;
+}
+
+/* Special Price Template */
+#special-price .grid .grid-item {
+  margin-top: 1rem;
+  margin-right: 1.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
