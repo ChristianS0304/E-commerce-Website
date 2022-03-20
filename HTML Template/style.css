@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,500;1,700&display=swap");
+/* Sass Template */
+/* *global classes */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.text-decoration {
+  text-decoration: none;
+}
+
+.read-more {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+/* Typography Ckasses */
+.font-roboto {
+  font-family: "Roboto", cursive;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", cursive;
+}
+
+.font-size12 {
+  font-size: 12px;
+}
+
+.font-size14 {
+  font-size: 14px;
+}
+
+.font-size16 {
+  font-size: 16px;
+}
+
+.font-size20 {
+  font-size: 20px;
+}
+
+/* Color Template */
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00A5C4 !important;
+}
+
+.color-second-bg {
+  background: #00A5C4 !important;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+/* Top Sale Template */
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 25px;
+  color: #003859;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  left: 0;
+  margin-right: -4rem;
+}
+
+/* Special Price Template */
+#special-price .grid .grid-item {
+  margin-top: 1rem;
+  margin-right: 1.2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
