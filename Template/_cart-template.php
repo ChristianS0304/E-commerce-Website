@@ -8,7 +8,7 @@
         <div class="col-9">
             <div class="row border-top py-3 mt-3">
                 <div class="col-sm-2">
-                    <img src="./assets/products/1.png" style="120px" class="img-fluid">
+                    <img src="./assets/products/1.png" style="width:120px;" class="img-fluid">
                 </div>
                 <div class="col-sm-8">
                     <h5 class="font-roboto font-size20 mb-0">Samsung Galaxy S5</h5>
@@ -48,7 +48,7 @@
             </div>
             <div class="row border-top py-3 mt-3">
                 <div class="col-sm-2">
-                    <img src="./assets/products/1.png" style="120px" class="img-fluid">
+                    <img src="./assets/products/1.png" style="width: 120px;" class="img-fluid">
                 </div>
                 <div class="col-sm-8">
                     <h5 class="font-roboto font-size20 mb-0">Samsung Galaxy S5</h5>
