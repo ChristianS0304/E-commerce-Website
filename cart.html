@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- Owl Carousel CDN --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Start Header --> 
+    <header id="header">
+        <div class="strip d-flex justify-content-between align-items-center px-4 py-1 bg-light">
+            <p class="font-roboto font-size12 text-black-50 m-0"> Lorem ipsum dolor sit amet consectet.</p>
+            <div class="font-roboto font-size-14">
+                <a href="#" class="px-3 border-right border-left text-dark text-decoration">Login</a>
+                <a href="#" class="px-3 border-right text-dark text-decoration">Wishlist</a>
+            </div>
+        </div>
+
+         <!-- Bootstrap Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Ecommerce Shop</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 font-roboto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">On Sale</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">New</a></li>
+                      <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Reviews</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Blog</a>
+                  </li>
+                </ul>
+                <form action="#" class="font-size14 font-roboto">
+                    <a href="#" class="py-2 rounded-pill color-primary-bg text-decoration">
+                        <span class="font-size16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                    </a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main Content -->
+    <main id="main-site">
+   
+        <section id="cart" class="py-3">
+            <div class="container-fluid w-75">
+                <h5 class="font-roboto font-size20">Shopping Cart</h5>
+            </div>
+
+            <!-- Start Shopping Cart Items-->
+            <div class="row">
+                <div class="col-9">
+                    <div class="row border-top py-3 mt-3">
+                        <div class="col-sm-2">
+                            <img src="./assets/products/1.png" style="120px" class="img-fluid">
+                        </div>
+                        <div class="col-sm-8">
+                            <h5 class="font-roboto font-size20">Samsung Galaxy S5</h5>
+                            <small>by Samsung</small>
+
+                            <!-- Product Rating -->
+                            <div class="d-flex">
+                                    <div class="rating text-warning font-size12">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                    <a href="#" class="px-2 font-robot font-size14 text-decoration">1,201 Ratings</a>
+                            </div>
+                            <!-- Product Rating -->
+
+                            <!-- Product Quantity -->
+                            <div class="qty d-flex pt-2">
+                                <div class="d-flex font-roboto w-25">
+                                    <button class="qty-up border bg-light"><i class="fas fa-angle-up"></i></button>
+                                    <input type="text" class="qty_input border px-2 w-50 bg-light" disabled value="1" placeholder="1">
+                                    <button class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                </div>
+                                <button type="submit" class="btn font-roboto text-danger px-3 border-end">Delete</button>
+                                <button type="submit" class="btn font-roboto text-danger px-3">Save for Later</button>
+                            </div>
+                            <!-- Product Quantity -->
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <!-- End Shopping Cart Items-->
+        </section>
+
+        <!-- Start New Phones -->
+        <section id="new-phones">
+            <div class="container mb-5">
+                <h4 class="font-roboto font-size20">New Phones</h4>
+                <div class="owl-carousel owl-theme">
+                    <div class="item py-2 bg-light">
+                    <div class="product font-montserrat">
+                            <a href="#"><img src="./assets/products/1.png" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Samsung Galaxy 5</h6>
+                                <div class="rating text-warning font-size12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$152</span>
+                                </div>
+                                <button type="button" class="btn btn-warning font-size12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-montserrat">
+                            <a href="#"><img src="./assets/products/2.png" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Samsung Galaxy 5</h6>
+                                <div class="rating text-warning font-size12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$152</span>
+                                </div>
+                                <button type="button" class="btn btn-warning font-size12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-montserrat">
+                            <a href="#"><img src="./assets/products/3.png" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Xiamoi Redmi Note 5</h6>
+                                <div class="rating text-warning font-size12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$299</span>
+                                </div>
+                                <button type="button" class="btn btn-warning font-size12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-montserrat">
+                            <a href="#"><img src="./assets/products/4.png" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Xiamoi Redmi Note 5</h6>
+                                <div class="rating text-warning font-size12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$299</span>
+                                </div>
+                                <button type="button" class="btn btn-warning font-size12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-montserrat">
+                            <a href="#"><img src="./assets/products/5.png" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Xiamoi Redmi Note 5</h6>
+                                <div class="rating text-warning font-size12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$299</span>
+                                </div>
+                                <button type="button" class="btn btn-warning font-size12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-montserrat">
+                            <a href="#"><img src="./assets/products/6.png" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Xiamoi Redmi Note 5</h6>
+                                <div class="rating text-warning font-size12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$299</span>
+                                </div>
+                                <button type="button" class="btn btn-warning font-size12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- End New Phones Carousel -->
+
+    </main> 
+    <!-- End Main Content -->
+    
+    <!-- Start Footer -->
+    <footer id="footer" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <h4 class="font-roboto font-size20">Mobile Shop</h4>
+                    <p class="font-size14 font-montserrat text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magnam mollitia incidunt veritatis provident!</p>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <h4 class="font-roboto font-size20">Newsletter</h4>
+                    <form class="d-flex gap-1">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Email: *">
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h4 class="font-roboto font-size20">Information</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="" class="font-roboto font-size14 text-white-50 pb-1 text-decoration">About Us</a>
+                        <a href="" class="font-roboto font-size14 text-white-50 pb-1 text-decoration">Delivery Info</a>
+                        <a href="" class="font-roboto font-size14 text-white-50 pb-1 text-decoration">Returns</a>
+                        <a href="" class="font-roboto font-size14 text-white-50 pb-1 text-decoration">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h4 class="font-roboto font-size20">Account</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="" class="font-roboto font-size14 text-white-50 pb-1 text-decoration">My Account</a>
+                        <a href="" class="font-roboto font-size14 text-white-50 pb-1 text-decoration">Order History</a>
+                        <a href="" class="font-roboto font-size14 text-white-50 pb-1 text-decoration">Wishlist</a>
+                        <a href="" class="font-roboto font-size14 text-white-50 pb-1 text-decoration">Newsletter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright text-white py-2 bg-dark text-center">
+            <p class="font-montserrat font-size12">&copy; Copyright 2022 | Design By Christian Silva</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- ISOT Plugin JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Custom JS -->
+    <script src="./index.js"></script>
+</body>
+</html>

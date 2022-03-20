@@ -78,7 +78,25 @@ $("#top-sale .owl-carousel").owlCarousel({
     });
 
     // product quantity
-    let $qty_up = $("qty qty-up");
-    let $qty_down = $("qty qty-up");
+    let $qty_up = $(".qty .qty-up");
+    let $qty_down = $(".qty .qty-down");
+    let $input = $(".qty .qty_input");
+
+    $qty_up.click(function(e) {
+        if($input.val() >= 1 && $input.val() <= 9) {
+            $input.val(function(i, oldVal) {
+                return ++oldVal;
+            });
+        }
+    });
+
+
+    $qty_down.click(function(e) {
+        if($input.val() > 1 && $input.val() <= 10) {
+            $input.val(function(i, oldVal) {
+                return --oldVal;
+            });
+        }
+    });
 
 });
